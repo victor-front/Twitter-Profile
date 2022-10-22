@@ -20,3 +20,80 @@ body{
 	height: 40vw;
 	margin: auto;
 }
+
+.user-top-row{
+	display: flex;
+	align-items: center;
+	color: #eee;
+	padding-top: .5em;
+	padding-bottom: .2em;
+}
+
+.seta{
+	width: 10px;
+	height: 10px;
+	background-color: #eee;
+	margin-left: 1.2em;
+	margin-right: 2.5em;
+}
+
+.about h1{
+	font-size: 1.2em;
+}
+
+.about p{
+	font-size: .8em;
+	color: #888;
+}
+
+.user-header{
+	display: flex;
+	background-color: #888;
+	width: 100%;
+	max-width: 100%;
+	min-height: 11em;
+	margin-bottom: 0;
+}
+
+.user-body{
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+	padding-top: .7em;
+}
+
+.e-button{
+	display: flex;
+	width: 118px;
+	text-align: center;
+	color: #eee;
+	font-weight: bold;
+	padding: .5em;
+	padding-bottom: .4em;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #050505;
+	border-radius: 20px;
+	border: 1px solid #aaa;
+	font-size: 1em;
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+.user-nick-container{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1em;
+}
+
+.nick{
+	color: #eee;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.id{
+	font-size: .9em;
+	color: #888;
+	font-weight: normal;
+}

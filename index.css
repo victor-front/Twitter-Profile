@@ -19,7 +19,7 @@ body{
 	width: 100%;
 	max-width: 600px;
 	height: 100%;
-	height: 40vw;
+	height: 100vh;
 	margin: auto;
 }
 
@@ -27,8 +27,8 @@ body{
 	display: flex;
 	align-items: center;
 	color: #eee;
-	padding-top: .5em;
-	padding-bottom: .2em;
+	padding-top: .6em;
+	padding-bottom: .3em;
 }
 
 .seta{
@@ -149,5 +149,30 @@ body{
 }
 
 .ranking .linran .destaque{
+	color: #eee;
+}
+
+.user-footer{
+	display: flex;
+	margin-top: .5em;
+	border-bottom: 1px solid #555;
+}
+
+.botao{
+	width: 100%;
+	max-width: 100%;
+	text-decoration: none;
+	color: #777;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	transition: 150ms;
+}
+
+.botao:hover{
+	background-color: #222;
+}
+
+.selected{
 	color: #eee;
 }

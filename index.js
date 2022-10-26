@@ -7,7 +7,7 @@ function load(){
 		ids: ["_rozavick", "zanes13"],
 		pfps: [
 		"https://avatarfiles.alphacoders.com/259/thumb-259289.png", 
-		"https://static.wikia.nocookie.net/sonic/images/d/d3/ClassicIDWEggman.jpg/revision/latest/scale-to-width-down/651?cb=20210625023120"
+		"https://wallpapers-clan.com/wp-content/uploads/2022/07/sonic-pfp-2.jpg"
 		],
 		themes: [
 		"https://images2.alphacoders.com/941/941898.jpg", 

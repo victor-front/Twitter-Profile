@@ -15,7 +15,6 @@ body{
 	flex-direction: column;
 	border: 1px solid #444;
 	border-top: none;
-	border-bottom: none;
 	width: 100%;
 	max-width: 600px;
 	height: 100%;
@@ -40,7 +39,7 @@ body{
 .envolv{
 	display: flex;
 	transition: 200ms;
-	padding: .8em;
+	padding: .8em .8em .7em .8em;
 	border-radius: 20px;
 	margin-bottom: .2em;
 	margin-left: .5em;

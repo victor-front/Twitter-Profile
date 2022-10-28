@@ -13,7 +13,7 @@ function load(){
 		"https://images2.alphacoders.com/941/941898.jpg", 
 		"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/09/sonic-green-hill-zone.jpg"
 		],
-		descs: ["Olá, eu sou Rozavick.<br>SOU CASADO<br>Me gusta jugar juegos retró Xd", "Irei dominar toda a Internet de ponta a ponta.<br>Nada me impedirá, muito menos um ferro quadrado!"],
+		descs: ["Olá, eu sou Rozavick.<br>Gosto de DDLC<br>Gosto de ouvir músicas Xd", "Irei dominar toda a Internet de ponta a ponta.<br>Nada me impedirá, muito menos um ferro quadrado!"],
 		data: ["Joined January 2022", "Joined January 2022"]
 	}
 	
@@ -24,7 +24,7 @@ function load(){
 		el.innerHTML = `
 			<div id="user-top-row" class="user-top-row">
 				<div class="envolv">
-					<img src="seta.png" class="seta">
+					<img src="img/seta.png" class="seta">
 				</div>
 				<div id="about" class="about">
 					<h1>${profiles.names[c]}</h1>
@@ -44,7 +44,7 @@ function load(){
 					<p>${profiles.descs[c]}</p>
 				</div>
 				<div id="date" class="date">
-					<img src="cal.png" class="graphyc"><p>${profiles.data[c]}</p>
+					<img src="img/cal.png" class="graphyc"><p>${profiles.data[c]}</p>
 				</div>
 				<div id="ranking" class="ranking">
 					<a class="linran" href="#"><strong class="destaque">${profiles.following[c]}</strong> Following</a>

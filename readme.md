@@ -3,7 +3,7 @@
 <p>Um projeto cuja consiste em ser um clone de perfil de usuário da rede social Twitter.</p>
 <h2>Como funciona?</h2>
 <p>O projeto é composto por um objeto que dentro dele armazena listas com dados a serem adicionados aos componetes criados.</p>
-<p>Também á uma função que se repete de acordo com a quantidade de usuários, gerando divs elementos que montam o perfil.</p>
+<p>Também há uma função que se repete de acordo com a quantidade de usuários, gerando divs elementos que montam o perfil.</p>
 <p>Para editar é simples! Na realidade é bem obvio, é só colocar um nome, um id, um caminho de pfp(foto de perfil), um caminho do plano de fundo, a data que o usuário entrou, a quantidade de tweets, de seguidores, de pessoas que estás seguindo e por fim uma descrição.</p>
 <img src="img/print.png" width="400px" alt="Print">
 <h2>Informações gerais</h2>

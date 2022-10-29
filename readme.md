@@ -24,3 +24,5 @@
 		</ul>
 	</li>
 </ul>
+<h2>Contato</h2>
+<a href="https://victor-4guiar.github.io/portifolio-victor/" rel="external" target="_blank">Meu portifólio</a>

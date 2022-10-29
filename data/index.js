@@ -58,8 +58,12 @@ function load(){
 				<a href="#" class="botao">Likes</a>
 			</div>
 		`;
-		
 		document.body.appendChild(el);
 		document.getElementById(`user-header${c}`).style.backgroundImage = `url(${profiles.themes[c]})`;
 	}
+	let footer = document.createElement('footer');
+	footer.innerHTML = `
+		<p>Made by <strong><a href="https://victor-4guiar.github.io/portifolio-victor/" rel="external" target="_blank">Victor Aguiar</a></strong></p>
+	`
+	document.body.appendChild(footer);
 }

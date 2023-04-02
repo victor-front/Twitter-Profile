@@ -63,7 +63,7 @@ function load(){
 	}
 	let footer = document.createElement('footer');
 	footer.innerHTML = `
-		<p>Made by <strong><a href="https://victor-4guiar.github.io/portifolio-victor/" rel="external" target="_blank">Victor Aguiar</a></strong></p>
+		<p>Made by <strong><a href="https://victor-front.github.io/portfolio-victor/" rel="external" target="_blank">Victor Front</a></strong></p>
 	`
 	document.body.appendChild(footer);
 }

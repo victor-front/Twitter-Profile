@@ -6,7 +6,7 @@ function load(){
 		names: ["Rozavick", "Zanetick"],
 		ids: ["_rozavick", "zanes13"],
 		pfps: [
-		"https://avatarfiles.alphacoders.com/259/thumb-259289.png", 
+		"https://i.pinimg.com/564x/0f/27/d7/0f27d7f5de642e0063e947aa9771ca85.jpg", 
 		"https://wallpapers-clan.com/wp-content/uploads/2022/07/sonic-pfp-2.jpg"
 		],
 		themes: [

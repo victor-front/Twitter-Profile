@@ -53,8 +53,8 @@ body{
 	height: 35px;
 	border-radius: 50%;
 	background-image: url("img/seta.png");
-	background-size: cover;
-	background-repeat: no repeat;
+	background-size: 80%;
+	background-repeat: no-repeat;
 	background-position: center;
 	margin-top: 10px;
 	margin-left: 15px;
@@ -94,7 +94,7 @@ body{
 	background-repeat: no repeat;
 	background-position: center;
 	border: 4px solid #000;
-	margin-left: 18px;
+	margin-left: 16px;
 }
 
 .pfp-button{
@@ -107,7 +107,7 @@ body{
 
 .button{
 	display: flex;
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-right: 20px;
 	text-decoration: none;
 	font-weight: bold;
@@ -131,9 +131,77 @@ body{
 
 .nick{
 	font-size: .8em;
-	color: #888;
+	color: #666;
 	margin-left: 18px;
 	font-weight: 0;
+}
+
+.user-body{
+	padding: 20px;
+}
+
+.localidade-data{
+	display: flex;
+	flex-direction: row;
+}
+
+.localidade{
+	margin-right: 15px;
+}
+
+.descricao{
+	margin-bottom: 10px;
+}
+
+.local{
+	color: #666;
+}
+
+.localidade-icon{
+	width: 20px;
+	display: overline;
+	transform: translateY(3px);
+}
+
+.data{
+	display: flex;
+	flex-direction: row;
+}
+
+.dat{
+	color: #666;
+	transform: translateY(-3.5px);
+}
+
+.calen-icon{
+	width: 25px;
+	transform: translateY(3.5px);
+}
+
+.footer{
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #666;
+}
+
+.footer ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	width: 100%;
+}
+
+.footer ul li{
+	width: 100%;
+}
+
+.footer-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ddd;
+	height: 50px;
+	text-decoration: none;
 }
 
 footer{

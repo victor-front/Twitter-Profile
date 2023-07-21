@@ -25,7 +25,6 @@ body{
 .user{ 
 	max-width: 600px;
 	margin: auto;
-	background-color: #222;
 	border-left: 1px solid #555;
 	border-right: 1px solid #555;
 }
@@ -58,6 +57,11 @@ body{
 	background-position: center;
 	margin-top: 10px;
 	margin-left: 15px;
+	transition: 200ms;
+}
+
+.seta:hover{
+	background-color: #181818;
 }
 
 .user-header .bloco{
@@ -118,6 +122,11 @@ body{
 	height: 35px;
 	align-items: center;
 	border: 1px solid #ddd;
+	transition: 150ms;
+}
+
+.button:hover{
+	background-color: #181818;
 }
 
 .nome{
@@ -178,6 +187,22 @@ body{
 	transform: translateY(3.5px);
 }
 
+.seguindo-seguidores{
+	display: flex;
+	margin-top: 10px;
+	color: #666;
+	font-size: .9em;
+}
+
+.seguindo-seguidores p{
+	display: inline;
+	margin-right: 20px;
+}
+
+.seguindo-seguidores strong{
+	color: #ddd;
+}
+
 .footer{
 	display: flex;
 	width: 100%;
@@ -202,8 +227,28 @@ body{
 	color: #ddd;
 	height: 50px;
 	text-decoration: none;
+	transition: 150ms;
+}
+
+.footer-item:hover{
+	background-color: #181818;
 }
 
 footer{
 	flex-shrink: 0;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 5px;
+	background-color: #222;
+	color: #ddd;
+}
+
+footer a{
+	text-decoration: none;
+	color: #ddd;
+}
+
+footer a:hover{
+	text-decoration: underline;
 }

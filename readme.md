@@ -9,10 +9,10 @@
 <p>É similar ao sistema de clone do Discord que eu fiz, também refeito. Consiste em ter um componente que extrai dados de um objeto que guarda os dados dos usuários, gosto de chamar de "carcaça" já que é só algo estático, digamos que a embalagem. E tem uma função que imprime esse componente na tela já com os dados que ele deve exibir, gosto de chamar essa função de "motor" como se fosse um carro, tendo sua carcaça e seu sistema interno que o faz andar. Não é difícil identificar os elementos citados, ainda mais que o código está bem comentado.</p>
 
 <h2>Créditos</h2>
-<ul><h2>Programas/Site usados</h2>
+<ul><h2>Programas/Sites usados</h2>
 	<li>Paint Dot Net</li>
 	<li>Notepad++</li>
 	<li>Git & GitHub</li>
 </ul>
 <h2>Site clonado</h2>
-<p><a href="https://twitter.com/_rozavick" rel="external" target="_blank">Twitter</a></p>
+<p><a href="https://twitter.com" rel="external" target="_blank">Twitter</a></p>

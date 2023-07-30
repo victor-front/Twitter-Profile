@@ -1,4 +1,4 @@
-const underfinedBack = 'data/img/backgrounds/underfined.jpg'; //Background caso o usuário não especifique um
+const underfinedBack = '#333639'; //Cor de fundo caso o usuário não especifique um background
 let users = {//Objeto que contém as informações dos usuários
 	nomes: ['Rozavick', 'Gir'],
 	nicks: ['@_rozavick', '@Xx_Gir_xX'],
@@ -25,8 +25,8 @@ let users = {//Objeto que contém as informações dos usuários
 */
 
 //Carcaça do perfil
-const user = (nome, nick, tweets, desc, local, data, segui, segs, pfp, back) => `
-		<section class="user">
+const user = (nome, nick, tweets, desc, local, data, segui, segs, pfp) => `
+		<section class="user" id="${nick}">
 			<section class="user-header">
 				<section class="user-header2">
 					<span class="seta"></span>
@@ -36,7 +36,7 @@ const user = (nome, nick, tweets, desc, local, data, segui, segs, pfp, back) => 
 					</div>
 				</section>
 				<section class="background-pfp-button-nick">
-					<section class="background" style="background-image: url(${back});">
+					<section class="background">
 					</section>
 					<div class="pfp-button">
 						<section class="pfp" style="background-image: url(${pfp});">
@@ -79,9 +79,6 @@ const user = (nome, nick, tweets, desc, local, data, segui, segs, pfp, back) => 
 
 function load(){//dar load nas microfunções fundamentais para o site funcionar
 	for(c=0;c < users.nomes.length;c++){
-		if(!users.backs[c]){
-			users.backs[c] = underfinedBack;
-		}
 		document.querySelector('main').innerHTML += user(
 		users.nomes[c], 
 		users.nicks[c], 
@@ -91,7 +88,13 @@ function load(){//dar load nas microfunções fundamentais para o site funcionar
 		users.data[c],
 		users.segui[c],
 		users.segs[c],
-		users.pfps[c],
-		users.backs[c]);
+		users.pfps[c]);
+		//Sistema que verifica se o usuário especificou ou não o fundo
+		let leback = document.querySelectorAll('.background')[c];
+		if(!users.backs[c]){
+			leback.style.backgroundColor = underfinedBack;
+		}else{
+		leback.style.backgroundImage = `url(${users.backs[c]})`;
+		}
 	}
 }load();//Chamar a função load()

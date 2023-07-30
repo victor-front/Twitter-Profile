@@ -90,8 +90,8 @@ body{
 }
 
 .pfp{
-	width: 130px;
-	height: 130px;
+	min-width: 130px;
+	min-height: 130px;
 	border-radius: 50%;
 	background-size: cover;
 	background-repeat: no repeat;
